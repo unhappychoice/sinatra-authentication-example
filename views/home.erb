@@ -1,0 +1,8 @@
+<h1>Home</h1>
+
+<% if !current_user?(@user) %>
+  <p><a href="/login">Login</a></p>
+<% else %>
+  <p><a href="/logout">Logout</a></p>
+<% end %>
+<p><a href="require_auth">Secret Page</a></p>
