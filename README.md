@@ -1,4 +1,4 @@
-Sinatra_Authenticate_Example
+Sinatra Authenticate Example
 ============================
 
 This is an example of sinatra authentication.
